@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+.main-container{ 
+ display: grid;
+}
+
+@media (min-width: 0px ) {
+    .main-container{
+        grid-template-columns: 25vw 47.7vw 27.3vw;
+        grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh;
+    }
+}
+
+/*header*/
+#div1{
+    grid-area: 1/1/2/4;
+    place-items: center;
+}
+
+/*menu-bar*/
+#div2{
+    grid-area: 2/1/5/2;
+}
+
+/*center area*/
+#div3{
+    grid-area: 2/2/4/3;
+}
+
+/*Upper subside area*/
+#div4{
+    grid-area: 2/3/3/4;
+}
+
+/*Lower subside area*/
+#div5{
+    grid-area: 3/3/4/4;
+}
+
+/*Footer bar*/
+#div6{
+    grid-area: 4/2/5/4;
+}
