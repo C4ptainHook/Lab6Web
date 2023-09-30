@@ -8,6 +8,13 @@ body{
  display: grid;
 }
 
+.text-quote{
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 0px 20px;
+}
+
 @media(min-width: 600px) { 
     .main-container{
     grid-template-columns: 25vw 47.7vw 27.3vw;
@@ -26,6 +33,7 @@ body{
 #div1{
     grid-area: 1/1/2/4;
     display: grid;
+    grid-template-columns: 50% 50%;
     place-items: center;
 }
 
@@ -61,8 +69,8 @@ body{
 #div6{
     grid-area: 4/2/5/4;
     display: grid;
+    grid-template-columns: 50% 50%;
     place-items: center;
 }
 
-/* grid-template-columns: 25vw 47.7vw 27.3vw;
-grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh; */
+
