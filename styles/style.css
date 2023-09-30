@@ -1,0 +1,17 @@
+.white{
+    background-color: #ffffff;
+}
+.orange{
+    background-color: #f8d8ad;
+}
+.green{
+    background-color: #b8f5b0;
+}
+.blue{
+    background-color: #c5cffa;
+}
+.container{
+    padding: 20px;
+    border: 1px solid black;
+}
+
