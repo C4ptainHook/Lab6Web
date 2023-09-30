@@ -8,24 +8,6 @@ body{
  display: grid;
 }
 
-#text-quote-header{
-    display: flex;
-    height: auto;
-    width: auto;
-    text-align: center;
-    align-self: center;
-    justify-self: start;
-}
-
-#text-quote-footer{
-    display: flex;
-    height: auto;
-    width: auto;
-    text-align: center;
-    justify-self: start;
-    align-self: start;
-}
-
 @media(min-width: 600px) { 
     .main-container{
     grid-template-columns: 25vw 47.7vw 27.3vw;

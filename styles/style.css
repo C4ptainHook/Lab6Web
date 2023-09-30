@@ -1,23 +1,23 @@
 .white{
     background-color: #ffffff;
 }
-.orange{
-    background-color: #f8d8ad;
+.violet{
+    background-color: #291927;
 }
 .green{
-    background-color: #b8f5b0;
+    background-color: #0c1515;
 }
-.blue{
-    background-color: #c5cffa;
+.dark{
+    background-color: #08060f;
 }
 .container{
-    padding: 20px;
-    border: 1px solid black;
+    padding: 40px;
+    border: 0.5px solid rgb(155, 77, 13);
     font-size: 60px;
 }
 
 #nav-container > nav{
-    height: 450px;
+    height: 600px;
     display: flex;
     flex-flow: column nowrap;
     flex: 1, 1, 200px;
@@ -26,14 +26,58 @@
 
 #nav-container  a{
     text-decoration: none;
-    background-color: brown;
+    background-color: #323135;
+    color: rgb(241, 211, 128);
+    padding: 15px;
     text-align: center;
     border-radius: 20px;
 }
 
+#text-quote-header{
+    display: flex;
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-self: center;
+    justify-self: start;
+}
+
+#text-quote-footer{
+    display: flex;
+    height: auto;
+    width: auto;
+    text-align: center;
+    justify-self: start;
+    align-self: start;
+}
+
 #div1{
-    background-image: url(../icons/Header_Stalk.jpeg);
+    background-image: url(../icons/Header-stalk.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#div3{
+color: #ffffff;
+}
+
+#div4{
+    color: #ffffff;
+}
+
+#div5{
+    color: #ffffff;
+}
+
+#div6{
+    background-image: url(../icons/Footer-stalk.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#on-page-icon{
+width: 299px;
+height: 297px;
 }
