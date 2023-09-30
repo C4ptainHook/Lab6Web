@@ -24,7 +24,7 @@ body{
 
 @media(max-width: 600px) { 
     .main-container{
-    grid-template-columns: auto 47.7vw auto;
+    grid-template-columns: 25vw auto 27.3vw;
     grid-template-rows: 22.44vh auto auto 26.53vh;
     }
 }

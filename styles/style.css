@@ -13,5 +13,27 @@
 .container{
     padding: 20px;
     border: 1px solid black;
+    font-size: 60px;
 }
 
+#nav-container > nav{
+    height: 450px;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1, 1, 200px;
+    justify-content: space-between;
+}
+
+#nav-container  a{
+    text-decoration: none;
+    background-color: brown;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#div1{
+    background-image: url(../icons/Header_Stalk.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
