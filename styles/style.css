@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0; 
 }
+p{
+    margin: 0px;
+}
 
 .main-container{ 
  display: grid;
@@ -164,21 +167,13 @@ height: 297px;
 }
 
 #icon-section{
-    display: flex;
-    width: 50%;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: inline;
+    marker: none;
 }
 
-.fa-brands.fa-youtube.fa-2x{
-    color: white;
-}
-
-.fa-brands.fa-facebook-f.fa-2x{
-    color: white;
-}
-
-.fa-brands.fa-x-twitter.fa-2x{
+#icon-section li{
+    display: inline;
+    margin: 0px 30px;
     color: white;
 }
 
