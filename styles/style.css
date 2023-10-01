@@ -142,6 +142,8 @@ color: #ffffff;
 }
 
 #div5{
+    font-size: 80px;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -159,4 +161,28 @@ height: 297px;
 
 #fa-sharp.fa-solid.fa-house{
     color: #f5f0d5;
+}
+
+#icon-section{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fa-brands.fa-youtube.fa-2x{
+    color: white;
+}
+
+.fa-brands.fa-facebook-f.fa-2x{
+    color: white;
+}
+
+.fa-brands.fa-x-twitter.fa-2x{
+    color: white;
+}
+
+h4{
+margin: 0;
+padding: 0;
 }
