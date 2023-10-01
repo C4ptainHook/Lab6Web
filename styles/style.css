@@ -181,13 +181,24 @@ padding: 0;
 
 .central-poster{
     width: 100%;
-    height: 65%;
+    height: 85%;
 }
 
 .music-list{
-    width: 95%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    width: 100%;
+    height: 35%;
 }
 
-.music-list > li > audio{
-   size: auto;
+audio {
+    width: 98%; /* Make the audio player fill its container horizontally */
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px;
 }
+
+
+  
