@@ -8,20 +8,6 @@ body{
  display: grid;
 }
 
-@media(min-width: 600px) { 
-    .main-container{
-    grid-template-columns: 25vw 47.7vw 27.3vw;
-    grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh;
-    }
-}
-
-@media(max-width: 600px) { 
-    .main-container{
-    grid-template-columns: 25vw auto 27.3vw;
-    grid-template-rows: 22.44vh auto auto 26.53vh;
-    }
-}
-
 /*header*/
 #div1{
     grid-area: 1/1/2/4;
@@ -69,4 +55,16 @@ body{
     padding-left: 100px;
 }
 
+@media (orientation:portrait) { 
+    .main-container{
+    grid-template-columns: auto 47.7vw auto;
+    grid-template-rows: 22.44vh auto auto 26.53vh;
+    }
+}
 
+@media (orientation: landscape) { 
+    .main-container{
+    grid-template-columns: 25vw 47.7vw 27.3vw;
+    grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh;
+    }
+}
