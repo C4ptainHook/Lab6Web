@@ -28,7 +28,8 @@ body{
 #div3{
     grid-area: 2/2/4/3;
     display: grid;
-    place-items: center;
+    align-items: top;
+    justify-items: center;
 }
 
 /*Upper subside area*/

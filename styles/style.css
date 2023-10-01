@@ -145,11 +145,12 @@ color: #ffffff;
 }
 
 #div5{
-    font-size: 80px;
-    font-weight: bold;
     color: #ffffff;
 }
-
+#follow_manifestation{
+    font-size: 80px;
+    font-weight: bold;
+}
 #div6{
     background-image: url(../icons/Footer-stalk.jpeg);
     background-repeat: no-repeat;
@@ -180,4 +181,9 @@ height: 297px;
 h4{
 margin: 0;
 padding: 0;
+}
+
+.central-poster{
+    width: 100%;
+    height: 65%;
 }
