@@ -14,10 +14,11 @@
     padding: 40px;
     border: 0.5px solid rgb(155, 77, 13);
     font-size: 60px;
+    font-family: rubik,helvetica,arial,sans-serif;
 }
 
 #nav-container > nav{
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-flow: column nowrap;
     flex: 1, 1, 200px;
@@ -26,29 +27,43 @@
 
 #nav-container  a{
     text-decoration: none;
-    background-color: #323135;
-    color: rgb(241, 211, 128);
+    color: #f5f0d5;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nav-container  a:hover{
+    text-decoration: none;
+    background-color: #685f42;
+    color: #f1d380;
     padding: 15px;
     text-align: center;
     border-radius: 20px;
+    border: 1px solid #f1d380;
 }
 
 #text-quote-header{
     display: flex;
     height: auto;
-    width: auto;
+    width: 68%;
     text-align: center;
     align-self: center;
     justify-self: start;
+    justify-content: space-between;
+    color: #ffffff;
+
 }
 
 #text-quote-footer{
     display: flex;
     height: auto;
-    width: auto;
+    width: 90%;
     text-align: center;
     justify-self: start;
     align-self: start;
+    justify-content: space-between;
+    color: #ffffff;
 }
 
 #div1{
@@ -80,4 +95,8 @@ color: #ffffff;
 #on-page-icon{
 width: 299px;
 height: 297px;
+}
+
+#fa-sharp.fa-solid.fa-house{
+    color: #f5f0d5;
 }
