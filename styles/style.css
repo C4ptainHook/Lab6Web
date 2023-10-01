@@ -168,7 +168,7 @@ height: 297px;
 
 #icon-section{
     display: inline;
-    marker: none;
+    list-style-type: none;
 }
 
 #icon-section li{
