@@ -58,9 +58,6 @@ grid-template-columns: 11fr 32fr;
     background-color: rgb(167, 180, 255);
 }
 
-
-
-
 .white{
     background-color: #ffffff;
 }
@@ -76,12 +73,12 @@ grid-template-columns: 11fr 32fr;
 .container{
     padding: 40px;
     border: 0.5px solid rgb(155, 77, 13);
-    font-size: 60px;
+    font-size: 20px;
     font-family: rubik,helvetica,arial,sans-serif;
 }
 
 #nav-container > nav{
-    height: 650px;
+    height: 350px;
     display: flex;
     flex-flow: column nowrap;
     flex: 1, 1, 200px;
@@ -93,15 +90,13 @@ grid-template-columns: 11fr 32fr;
     color: #f5f0d5;
     padding: 15px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
 #nav-container  a:hover{
-    text-decoration: none;
     background-color: #685f42;
     color: #f1d380;
     padding: 15px;
-    text-align: center;
     border-radius: 20px;
     border: 1px solid #f1d380;
 }
@@ -148,7 +143,7 @@ color: #ffffff;
     color: #ffffff;
 }
 #follow_manifestation{
-    font-size: 80px;
+    font-size: 40px;
     font-weight: bold;
 }
 #div6{
@@ -159,8 +154,8 @@ color: #ffffff;
 }
 
 #on-page-icon{
-width: 299px;
-height: 297px;
+width: 99px;
+height: 97px;
 }
 
 #fa-sharp.fa-solid.fa-house{
@@ -168,13 +163,14 @@ height: 297px;
 }
 
 #icon-section{
-    display: inline;
+    display: block;
     list-style-type: none;
 }
 
 #icon-section li{
     display: inline;
-    margin: 0px 30px;
+    justify-self: center;
+    margin-right: 30px;
     color: white;
 }
 
