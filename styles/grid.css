@@ -59,16 +59,16 @@ body{
 }
 
 
-@media (min-width: 1200px) { 
+@media (min-width: 1469px) { 
     .main-container{
     grid-template-columns: 25vw 47.7vw 27.3vw;
     grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh;
     }
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1469px) { 
     .main-container{
-    grid-template-columns: auto 47.7vw auto;
+    grid-template-columns: auto 700px auto;
     grid-template-rows: 22.44vh auto auto 26.53vh;
     }
 }
