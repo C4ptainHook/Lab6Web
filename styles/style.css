@@ -193,7 +193,7 @@ padding: 0;
 }
 
 audio {
-    width: 98%; /* Make the audio player fill its container horizontally */
+    width: 98%; 
     background-color: #f0f0f0; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
