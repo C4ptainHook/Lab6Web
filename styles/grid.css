@@ -6,35 +6,17 @@ body{
 
 .main-container{ 
  display: grid;
-}
-
-.text-quote{
-    height: auto;
-    width: auto;
-    text-align: center;
-    margin: 0px 20px;
-}
-
-@media(min-width: 600px) { 
-    .main-container{
-    grid-template-columns: 25vw 47.7vw 27.3vw;
-    grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh;
-    }
-}
-
-@media(max-width: 600px) { 
-    .main-container{
-    grid-template-columns: auto 47.7vw auto;
-    grid-template-rows: 22.44vh auto auto 26.53vh;
-    }
+ height: 100vh;
+ width: 100vw;
 }
 
 /*header*/
 #div1{
     grid-area: 1/1/2/4;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 80%;
     place-items: center;
+    padding-left: 150px;
 }
 
 /*menu-bar*/
@@ -48,7 +30,8 @@ body{
 #div3{
     grid-area: 2/2/4/3;
     display: grid;
-    place-items: center;
+    align-items: top;
+    justify-items: center;
 }
 
 /*Upper subside area*/
@@ -69,8 +52,23 @@ body{
 #div6{
     grid-area: 4/2/5/4;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 80%;
     place-items: center;
+    padding-top: 0px;
+    padding-left: 100px;
 }
 
 
+@media (min-width: 1469px) { 
+    .main-container{
+    grid-template-columns: 25vw 47.7vw 27.3vw;
+    grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh;
+    }
+}
+
+@media (max-width: 1469px) { 
+    .main-container{
+    grid-template-columns: auto 700px auto;
+    grid-template-rows: 22.44vh auto auto 26.53vh;
+    }
+}
