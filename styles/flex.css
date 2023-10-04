@@ -5,70 +5,78 @@ body{
 }
 
 .main-container{ 
- display: grid;
+ display: flex;
+ flex-flow: column nowrap;
  height: 100vh;
  width: 100vw;
 }
 
 /*header*/
 #div1{
-    grid-area: 1/1/2/4;
-    display: grid;
-    grid-template-columns: 20% 80%;
+    display: flex;
+    flex: 2;
     place-items: center;
     padding-left: 150px;
 }
 
+.lower-main{
+    display: flex;
+    flex:8;
+    flex-flow: row wrap;
+}
+
+.right-lower-main{
+    display: flex;
+    flex:32;
+    flex-flow: column wrap;
+}
+
+.middle-main{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.right-middle-main{
+    display: flex;
+    flex: 12;
+    flex-flow: column wrap;
+}
+
 /*menu-bar*/
 #div2{
-    grid-area: 2/1/5/2;
-    display: grid;
+    display: flex;
+    flex:11;
     place-items: center;
 }
 
 /*center area*/
 #div3{
-    grid-area: 2/2/4/3;
-    display: grid;
+    display: flex;
+    flex:21;
     align-items: top;
     justify-items: center;
 }
 
 /*Upper subside area*/
 #div4{
-    grid-area: 2/3/3/4;
-    display: grid;
+    display: flex;
+    flex:1;
     place-items: center;
 }
 
 /*Lower subside area*/
 #div5{
-    grid-area: 3/3/4/4;
-    display: grid;
+    display: flex;
+    flex:1;
     place-items: center;
 }
 
 /*Footer bar*/
 #div6{
-    grid-area: 4/2/5/4;
-    display: grid;
-    grid-template-columns: 20% 80%;
+    display: flex;
+    flex:3;
     place-items: center;
     padding-top: 0px;
     padding-left: 100px;
 }
 
-
-@media (min-width: 1469px) { 
-    .main-container{
-    grid-template-columns: 25vw 47.7vw 27.3vw;
-    grid-template-rows: 22.44vh 26.53vh 24.5vh 26.53vh;
-    }
-}
-
-@media (max-width: 1469px) { 
-    .main-container{
-    grid-template-columns: auto 700px auto;
-    grid-template-rows: 22.44vh auto auto 26.53vh;
-    }
-}
