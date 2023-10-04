@@ -68,7 +68,7 @@ body{
 
 @media (max-width: 1469px) { 
     .main-container{
-    grid-template-columns: auto 47.7vw auto;
+    grid-template-columns: auto 700px auto;
     grid-template-rows: 22.44vh auto auto 26.53vh;
     }
 }
