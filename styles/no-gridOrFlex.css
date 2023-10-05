@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+table{
+    padding: 0;
+    margin:0;
+    border-spacing:0;
+}
+
+/*header*/
+#div1{
+    height: 22.44%;
+    width: 100%;
+    /* padding-left: 150px; */
+}
+
+/*menu-bar*/
+#div2 {
+  width:25.6%;
+}
+
+/*center area*/
+#div3{
+
+}
+
+/*Upper subside area*/
+#div4{
+   
+  
+}
+
+/*Lower subside area*/
+#div5{
+    
+    
+}
+
+/*Footer bar*/
+#div6 {
+
+}
