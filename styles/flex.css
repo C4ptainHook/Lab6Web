@@ -4,78 +4,86 @@ body{
     overflow-x: hidden;
 }
 
-.main-container{ 
+.main-flex{ 
  display: flex;
  flex-flow: column nowrap;
  height: 100vh;
  width: 100vw;
 }
 
-/*header*/
-#div1{
+.lower-flex{
     display: flex;
-    flex: 2;
-    place-items: center;
-    padding-left: 150px;
-}
-
-.lower-main{
-    display: flex;
-    flex:8;
+    flex:38;
     flex-flow: row wrap;
 }
 
-.right-lower-main{
+.right-lower-flex{
     display: flex;
     flex:32;
     flex-flow: column wrap;
 }
 
-.middle-main{
+.middle-flex{
     display: flex;
+    flex:25;
     flex-flow: row wrap;
 }
 
-.right-middle-main{
+.right-middle-flex{
     display: flex;
     flex: 12;
     flex-flow: column wrap;
+}
+
+/*header*/
+#div1{
+    display: flex;
+    flex: 11;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
 }
 
 /*menu-bar*/
 #div2{
     display: flex;
     flex:11;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /*center area*/
 #div3{
     display: flex;
     flex:21;
-    align-items: top;
-    justify-items: center;
+    flex-direction: column;
+    justify-items: top;
+    align-items: center;
 }
 
 /*Upper subside area*/
 #div4{
     display: flex;
-    flex:1;
-    place-items: center;
+    flex:13;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Lower subside area*/
 #div5{
     display: flex;
-    flex:1;
-    place-items: center;
+    flex:12;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Footer bar*/
 #div6{
     display: flex;
-    flex:3;
-    place-items: center;
+    flex:13;
+    justify-content: center;
+    align-items: center;
     padding-top: 0px;
     padding-left: 100px;
 }
