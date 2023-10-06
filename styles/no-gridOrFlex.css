@@ -55,14 +55,20 @@ table{
     padding-left: 100px;
 }
 
-h2{
+.bottom_quote{
     display: inline-block;
-    margin: 0;
+    position: relative;
+    transform: translateY(-90%);
+    transform: translateX(+40%);
     padding: 0;
 }
 
-h2{
+.top_quote{
+    display: inline-block;
     position: relative;
+    transform: translateY(+15%);
+    transform: translateX(+78%);
+    padding: 0;
 }
 
 h4{
