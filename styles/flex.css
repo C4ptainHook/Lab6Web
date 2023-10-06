@@ -91,3 +91,21 @@ h2{
    align-self: center;
    flex-basis: 55%;
 }
+
+#text-quote-header{
+    display: flex;
+    height: auto;
+    width: 68%;
+    align-self: center;
+    justify-self: start;
+    justify-content: space-between;
+}
+
+#text-quote-footer{
+    display: flex;
+    height: auto;
+    width: 90%;
+    justify-self: start;
+    align-self: start;
+    justify-content: space-between;
+}

@@ -18,32 +18,58 @@ table{
 #div1{
     height: 22.44%;
     width: 100%;
-    /* padding-left: 150px; */
+    columns: 2;
+    text-align: start;
+    vertical-align: middle;
+    padding-left: 150px;
 }
 
 /*menu-bar*/
 #div2 {
   width:25.6%;
+  padding: 100px;
 }
 
 /*center area*/
 #div3{
-
+    text-justify: center;
+    vertical-align: middle;
 }
 
 /*Upper subside area*/
 #div4{
-   
-  
+   height: 26.6%;
+   width: 27.3%;
 }
 
 /*Lower subside area*/
 #div5{
-    
-    
+    height: 24.5%;    
+    text-align: center;
 }
 
 /*Footer bar*/
 #div6 {
+    columns: 2;
+    text-align:start;
+    padding-left: 100px;
+}
 
+h2{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    position: relative;
+}
+
+h4{
+    text-align: center;
+}
+
+#text-quote-footer{
+    position: relative;
+    bottom: 72%;
 }
