@@ -52,15 +52,15 @@ table{
 #div6 {
     columns: 2;
     text-align:start;
+    vertical-align: top;
     padding-left: 100px;
 }
 
 .bottom_quote{
     display: inline-block;
     position: relative;
-    transform: translateY(-90%);
     transform: translateX(+40%);
-    padding: 0;
+    top: 27%;
 }
 
 .top_quote{
@@ -75,7 +75,8 @@ h4{
     text-align: center;
 }
 
-#text-quote-footer{
+#icon-quote-footer{
     position: relative;
-    bottom: 72%;
+    margin: 0;
+    bottom: 38%;
 }
