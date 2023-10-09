@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+table{
+    padding: 0;
+    margin:0;
+    border-spacing:0;
+}
+
+/*header*/
+#div1{
+    height: 22.44%;
+    width: 100%;
+    columns: 2;
+    text-align: start;
+    vertical-align: middle;
+    padding-left: 150px;
+}
+
+/*menu-bar*/
+#div2 {
+  width:25.6%;
+  padding: 100px;
+}
+
+/*center area*/
+#div3{
+    text-justify: center;
+    vertical-align: middle;
+}
+
+/*Upper subside area*/
+#div4{
+   height: 26.6%;
+   width: 27.3%;
+}
+
+/*Lower subside area*/
+#div5{
+    height: 24.5%;    
+    text-align: center;
+}
+
+/*Footer bar*/
+#div6 {
+    columns: 2;
+    text-align:start;
+    vertical-align: top;
+    padding-left: 100px;
+}
+
+.bottom_quote{
+    display: inline-block;
+    position: relative;
+    transform: translateX(+40%);
+    top: 27%;
+}
+
+.top_quote{
+    display: inline-block;
+    position: relative;
+    transform: translateY(+15%);
+    transform: translateX(+78%);
+    padding: 0;
+}
+
+h4{
+    text-align: center;
+}
+
+#icon-quote-footer{
+    position: relative;
+    margin: 0;
+    bottom: 38%;
+}

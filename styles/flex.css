@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0; 
+    overflow-x: hidden;
+}
+
+.main-flex{ 
+ display: flex;
+ flex-flow: column nowrap;
+ height: 100vh;
+ width: 100vw;
+}
+
+.lower-flex{
+    display: flex;
+    flex:38;
+    flex-flow: row wrap;
+}
+
+.right-lower-flex{
+    display: flex;
+    flex:32;
+    flex-flow: column wrap;
+}
+
+.middle-flex{
+    display: flex;
+    flex:25;
+    flex-flow: row wrap;
+}
+
+.right-middle-flex{
+    display: flex;
+    flex: 12;
+    flex-flow: column wrap;
+}
+
+/*header*/
+#div1{
+    display: flex;
+    flex: 7;
+    flex-direction: row;
+    padding-left: 150px;
+}
+
+/*menu-bar*/
+#div2{
+    display: flex;
+    flex:9;
+    justify-content: center;
+    align-items: center;
+}
+
+/*center area*/
+#div3{
+    display: flex;
+    flex:19;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Upper subside area*/
+#div4{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Lower subside area*/
+#div5{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer bar*/
+#div6{
+    display: flex;
+    flex:11;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-left: 100px;
+}
+
+h2{
+   justify-self: center;
+   align-self: center;
+   flex-basis: 55%;
+}
+
+#text-quote-header{
+    display: flex;
+    height: auto;
+    width: 71%;
+    align-self: center;
+    justify-self: start;
+    justify-content: space-between;
+}
+
+#text-quote-footer{
+    display: flex;
+    height: auto;
+    width: 67%;
+    justify-self: start;
+    align-self: start;
+    justify-content: space-between;
+}
