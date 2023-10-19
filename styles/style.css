@@ -35,6 +35,7 @@ h2{
 
 #nav-container > nav{
     height: 350px;
+    width: 250px;
     display: flex;
     flex-flow: column nowrap;
     flex: 1, 1, 200px;
@@ -47,6 +48,12 @@ h2{
     padding: 15px;
     font-weight: bold;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-container  a > p{ 
+  margin-left: 25px;
 }
 
 #nav-container  a:hover{

@@ -3,16 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoGridFlex</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/no-gridOrFlex.css">
+    <title>Email</title>
     <link rel="icon" href="icons/favicon.png">
     <script src="https://kit.fontawesome.com/68edd5728c.js" crossorigin="anonymous"></script>
+    <style>
+body{
+    margin: 0;
+    padding: 0; 
+    overflow-x: hidden;
+}
+
+p{
+    margin: 0px;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+}
+  
+.white{
+    background-color: #ffffff;
+}
+.violet{
+    background-color: #291927;
+}
+.green{
+    background-color: #0c1515;
+}
+.dark{
+    background-color: #08060f;
+}
+
+.container{
+    padding: 40px;
+    border: 0.5px solid rgb(155, 77, 13);
+    color: #ffffff;
+    font-size: 20px;
+    font-family: rubik,helvetica,arial,sans-serif;
+}
+
+#nav-container > nav{
+    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1, 1, 200px;
+    justify-content: space-between;
+}
+
+#nav-container  a{
+    text-decoration: none;
+    color: #f5f0d5;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#nav-container  a:hover{
+    background-color: #685f42;
+    color: #f1d380;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #f1d380;
+}
+
+#follow_manifestation{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#on-page-icon{
+width: 99px;
+height: 97px;
+}
+
+#icon-section{
+    display: block;
+    list-style-type: none;
+}
+
+#icon-section li{
+    display: inline;
+    justify-self: center;
+    margin-right: 30px;
+    color: white;
+}
+
+h4{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+table{
+    padding: 0;
+    margin:0;
+    border-spacing:0;
+}
+
+/*header*/
+#div1{
+    background-image: url(../icons/Header-stalk.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 22.44%;
+    width: 100%;
+    columns: 2;
+    text-align: start;
+    vertical-align: middle;
+    padding-left: 150px;
+}
+
+/*menu-bar*/
+#div2 {
+  width:25.6%;
+  padding: 100px;
+}
+
+/*center area*/
+#div3{
+    text-justify: center;
+    vertical-align: middle;
+}
+
+/*Upper subside area*/
+#div4{
+   height: 26.6%;
+   width: 27.3%;
+}
+
+/*Lower subside area*/
+#div5{
+    height: 24.5%;    
+    text-align: center;
+}
+
+/*Footer bar*/
+#div6 {
+    columns: 2;
+    text-align:start;
+    vertical-align: top;
+    padding-left: 100px;
+    background-image: url(../icons/Footer-stalk.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom_quote{
+    display: inline-block;
+    position: relative;
+    transform: translateX(+40%);
+    top: 27%;
+}
+
+.top_quote{
+    display: inline-block;
+    position: relative;
+    transform: translateY(+15%);
+    transform: translateX(+78%);
+    padding: 0;
+}
+
+#icon-quote-footer{
+    position: relative;
+    margin: 0;
+    bottom: 38%;
+}
+
+    </style>
 </head>
 <body>
-    <table class="main-container">
+    <table class="main-container" style="padding: 0; margin:0; border-spacing:0;">
         <tr>
-            <th colspan="3" class="container" id="div1">
+            <th colspan="3" class="container" id="div1" style="">
                 <div id="text-quote-header">
                     <img id="on-page-icon" src="icons/bloodSucker.png" alt="icon">
                 </div>
