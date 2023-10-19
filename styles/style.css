@@ -218,7 +218,7 @@ height: 97px;
     font-size: 60%;
    }
    #follow_manifestation{
-    font-size:100%;
+    font-size:80%;
    }
    #div1,#div5,#div6{
     padding: 5%;
@@ -233,8 +233,8 @@ height: 97px;
     } 
     #nav-container{
         flex-flow: row;
+        justify-content: space-evenly;
         height: 25px;
-        justify-items: center;
     }
     #nav-container > nav{
         height: auto;
@@ -243,7 +243,11 @@ height: 97px;
     #nav-container a{
         padding: 0;
         text-decoration: none;
-        justify-content: center;
+    }
+    #nav-container p{
+        padding: 0;
+        text-decoration: none;
+        display: none;
     }
     #nav-container  a:hover{
         background-color: #291927;
@@ -262,9 +266,4 @@ height: 97px;
     .fa-brands{
         font-size: 120%;
     }
-    .nav_label{
-        font-size: 0;
-        width: 0;
-    }
-    
 }
