@@ -11,7 +11,16 @@ p{
 h2{
     color: white;
     font-weight: bold;
+    justify-self: center;
+    align-self: center;
+    flex-basis: 55%;
 }
+
+h4{
+    margin-bottom: 100px;
+    padding: 0;
+    }
+    
   
 .white{
     background-color: #ffffff;
@@ -35,6 +44,7 @@ h2{
 
 #nav-container > nav{
     height: 350px;
+    width: 250px;
     display: flex;
     flex-flow: column nowrap;
     flex: 1, 1, 200px;
@@ -46,33 +56,24 @@ h2{
     color: #f5f0d5;
     padding: 15px;
     font-weight: bold;
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-container  a > p{ 
+  margin-left: 25px;
 }
 
 #nav-container  a:hover{
     background-color: #685f42;
     color: #f1d380;
-    padding: 15px;
     border-radius: 20px;
     border: 1px solid #f1d380;
-}
-
-#div1{
-    background-image: url(../icons/Header-stalk.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 #follow_manifestation{
     font-size: 40px;
     font-weight: bold;
-}
-#div6{
-    background-image: url(../icons/Footer-stalk.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 #on-page-icon{
@@ -92,7 +93,177 @@ height: 97px;
     color: white;
 }
 
-h4{
-margin: 0;
-padding: 0;
+.main-flex{ 
+ display: flex;
+ flex-flow: column nowrap;
+ min-width: 200px;
+ height: 100vh;
+ width: 100vw;
+}
+
+.lower-flex{
+    display: flex;
+    flex:38;
+    flex-flow: row wrap;
+}
+
+.right-lower-flex{
+    display: flex;
+    flex:32;
+    flex-flow: column wrap;
+}
+
+.middle-flex{
+    display: flex;
+    flex:25;
+    flex-flow: row wrap;
+}
+
+.right-middle-flex{
+    display: flex;
+    flex: 12;
+    flex-flow: column wrap;
+}
+
+/*header*/
+#div1{
+    display: flex;
+    flex: 7;
+    flex-direction: row;
+    padding-left: 150px;
+    background-image: url(../icons/Header-stalk.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*menu-bar*/
+#div2{
+    display: flex;
+    flex:9;
+    justify-content: center;
+    align-items: center;
+}
+
+/*center area*/
+#div3{
+    display: flex;
+    flex:19;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Upper subside area*/
+#div4{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Lower subside area*/
+#div5{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer bar*/
+#div6{
+    display: flex;
+    flex:11;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-left: 100px;
+    background-image: url(../icons/Footer-stalk.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#text-quote-header{
+    display: flex;
+    height: auto;
+    width: 71%;
+    align-self: center;
+    justify-self: start;
+    justify-content: space-between;
+}
+
+#text-quote-footer{
+    display: flex;
+    height: auto;
+    width: 67%;
+    justify-self: start;
+    align-self: start;
+    justify-content: space-between;
+}
+
+@media (max-width:440px){
+   .lower-flex{
+    flex-direction: column;
+   }
+   h2{
+    font-size:120%;
+    flex-basis: auto;
+   }
+   h4{
+    font-size:80%;
+    margin-bottom: 10px;
+   }
+   p{
+    font-size: 60%;
+   }
+   #follow_manifestation{
+    font-size:80%;
+   }
+   #div1,#div5,#div6{
+    padding: 5%;
+    height: 100px;
+   } 
+   #div2{
+    padding: 5px;
+   }
+   #on-page-icon{
+    width: 60px;
+    height: 58px;
+    } 
+    #nav-container{
+        flex-flow: row;
+        justify-content: space-evenly;
+        height: 25px;
+    }
+    #nav-container > nav{
+        height: auto;
+        flex-flow: row;
+    }
+    #nav-container a{
+        padding: 0;
+        text-decoration: none;
+    }
+    #nav-container p{
+        padding: 0;
+        text-decoration: none;
+        display: none;
+    }
+    #nav-container  a:hover{
+        background-color: #291927;
+        color: transparent;
+        border: none;
+        .fa-grip{
+            color: #f1d380;
+        }
+        .fa-bars{
+            color: #f1d380; 
+        }
+        .fa-table{
+            color: #f1d380; 
+        }
+    }
+    .fa-brands{
+        font-size: 120%;
+    }
 }
