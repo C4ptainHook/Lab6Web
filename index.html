@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile</title>
+    <title>Main</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/flex.css">
-    <link rel="icon" href="icons/favicon.png">
+    <link rel="stylesheet" href="styles/collapse.css">
+    <link rel="icon" href="icons/st2Favicon.png">
     <script src="https://kit.fontawesome.com/68edd5728c.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="Collapse.registerEvents()">
     <div class="main-flex">
         <header class="container" id="div1">
             <div id="text-quote-header">
@@ -72,6 +72,7 @@
             </div>
         </div>
     </div>
+    <script src="add-collapse.js"></script>
 </body>
 </html>
 
