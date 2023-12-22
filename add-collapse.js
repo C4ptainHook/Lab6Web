@@ -51,10 +51,23 @@ const Collapse = {
 async function sendObject(event) {
     event.preventDefault();
     const forms = document.querySelectorAll(".collapse-form");
-    const objectName = "Saved";
-    
+    const objectName = "Saved.txt";
+
+    forms.forEach(form => {
+        const textareas = form.querySelectorAll("textarea");
+        textareas.forEach(textarea => {
+            const value = textarea.value;
+            const label = document.createElement("label");
+            label.textContent = value;
+            textarea.replaceWith(label);
+        });
+
+    });
+
+    const saveforms = document.querySelectorAll(".collapse-form"); 
+
     let formsContent = "";
-    forms.forEach(element => {
+    saveforms.forEach(element => {
         formsContent += element.innerHTML;
     });
 
