@@ -1,1 +1,1 @@
-Відеодемонстрація на Youtube https://youtu.be/H0QiUKMjpJ0
+Демо на Youtube https://youtu.be/H0QiUKMjpJ0
