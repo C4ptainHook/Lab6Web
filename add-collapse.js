@@ -7,7 +7,7 @@ const Collapse = {
         if (targetBlock) {
             let formHTML = `
                 <form class="collapse-form">
-                    <button onclick="Collapse.collapse(event,${this.objectCounter})">Collapse</button>
+                    <button  class="collapse-button" onclick="Collapse.collapse(event,${this.objectCounter})">Collapse</button>
                     <div class="collapse-input-section" id="collapse-section${this.objectCounter}">
                     <textarea rows="2"></textarea>
                     <button class="svg-button" onclick="sendObject(event)">
