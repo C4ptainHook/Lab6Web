@@ -1,0 +1,32 @@
+
+.collapse-button{
+    color: white;
+    font-weight: 700;
+    background-color:rgb(230, 142, 22);
+}
+
+.collapse-input-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.collapse-input-section svg{
+    display: none;
+    width: 2.2rem;
+    height: 1.8rem;
+    margin: 0.5rem;
+    background-color: rgb(170, 255, 101);
+ }
+ 
+.collapse-input-section svg:hover{
+   transform: scale(1.2);
+}
+
+.svg-button{
+    background-color: transparent;
+    border: 0;
+}
+
+ 
